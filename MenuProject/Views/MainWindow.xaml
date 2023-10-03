@@ -15,6 +15,15 @@
         <DataTemplate DataType="{x:Type viewmodel:WelcomeViewModel}">
             <view:WelcomeView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodel:StudentViewModel}">
+            <view:StudentView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodel:TeacherViewModel}">
+            <view:TeacherView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewmodel:ParentViewModel}">
+            <view:ParentView/>
+        </DataTemplate>
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
