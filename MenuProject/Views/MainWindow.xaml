@@ -30,6 +30,16 @@
                 <MenuItem Header="_Szülők" Command="{Binding ShowParantViewCommand}" />
             </MenuItem>
         </Menu>
+        <StatusBar Grid.Row="2" Grid.Column="0">
+            <StatusBarItem>
+                <TextBlock Text="{Binding StatusBarText}"/>
+            </StatusBarItem>
+        </StatusBar>
+        <StatusBar Grid.Row="2" Grid.Column="0">
+            <StatusBarItem>
+                <TextBlock Text="{Binding StatusBarText}"/>
+            </StatusBarItem>
+        </StatusBar>
 
     </Grid>
 </Window>
