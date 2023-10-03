@@ -9,6 +9,11 @@ namespace MenuProject.ViewModels
         private BaseViewModel _childViewModel;
 
         [ObservableProperty]
-        private string _statusBarText = "A program betölödött...";    
+        private string _statusBarText = "A program betölödött...";
+
+        public MainWindowViewModel()
+        {
+            _childViewModel = new WelcomeViewModel();
+        }
     }
 }
