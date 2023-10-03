@@ -19,5 +19,17 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
+
+        <Menu Grid.Row="0" Grid.Column="0">
+            <MenuItem Header="_Fájl">
+                <MenuItem Header="_Kilépés" />
+            </MenuItem>
+            <MenuItem Header="_Adatok">
+                <MenuItem Header="_Diákok" Command="{Binding ShowStudentViewCommand}" />
+                <MenuItem Header="_Tanárok" Command="{Binding ShowTeacherViewCommand}" />
+                <MenuItem Header="_Szülők" Command="{Binding ShowParantViewCommand}" />
+            </MenuItem>
+        </Menu>
+
     </Grid>
 </Window>
