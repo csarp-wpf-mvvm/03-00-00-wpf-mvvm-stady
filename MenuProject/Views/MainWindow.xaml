@@ -40,6 +40,7 @@
                 <TextBlock Text="{Binding StatusBarText}"/>
             </StatusBarItem>
         </StatusBar>
-
+        
+        <ContentControl Grid.Row="1" Grid.Column="0" Content="{Binding ChildViewModel}"></ContentControl>
     </Grid>
 </Window>
