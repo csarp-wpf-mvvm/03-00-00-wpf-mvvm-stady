@@ -1,6 +1,8 @@
-﻿namespace MenuProject.ViewModels
+﻿using MenuProject.ViewModels.Base;
+
+namespace MenuProject.ViewModels
 {
-    public class StudentViewModel
+    public class StudentViewModel : BaseViewModel
     {
     }
 }
